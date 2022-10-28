@@ -1,0 +1,91 @@
+.container {
+    overflow: hidden;
+}
+
+.images {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.titleDiv {
+    width: auto;
+    height: 10rem;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: brown;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    box-shadow: 0 0 20px 0px gray;
+}
+
+.title {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.image {
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0px gray;
+}
+
+.detailCard {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gainsboro;
+    border-radius: 8px;
+    padding: 1%;
+    box-shadow: 0 0 20px 0px gray;
+}
+
+.paragh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: medium;
+}
+
+.button {
+    padding: 2rem 2rem;
+    border: none;
+    border-radius: 20rem;
+    margin: 2rem;
+    color: blue;
+    background-color: brown;
+    box-shadow: 0 0 20px 0px gray;
+    text-decoration: none;
+    text-decoration-color: black;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: rgb(108, 6, 6);
+}
+
+/* .link{
+    text-decoration: none;
+    text-decoration-color: black;
+    color:whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+  } */
